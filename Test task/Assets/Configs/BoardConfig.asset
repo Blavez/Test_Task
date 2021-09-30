@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda51a0ea31694e4888a3c3ddaa3b4a2, type: 3}
+  m_Name: BoardConfig
+  m_EditorClassIdentifier: 
+  xSize: 5
+  ySize: 7
+  <tileGO>k__BackingField: {fileID: 95037294201351194, guid: 6209a6584280178479c3d0c9ce1ca149, type: 3}
+  <tileSprite>k__BackingField:
+  - {fileID: 21300000, guid: cac0f45e20799e243a81d72c1855a958, type: 3}
+  - {fileID: 21300000, guid: 60d7073f3c084b94ba94629a4dcdcf2e, type: 3}
+  - {fileID: 21300000, guid: f195f8ba0e8fc8c4c9148422185574ef, type: 3}
+  - {fileID: 21300000, guid: f3435fc1bdc46eb459a0bc617e8f1799, type: 3}
+  - {fileID: 21300000, guid: d136db8893cd4064989dbdf9b6f70e49, type: 3}
