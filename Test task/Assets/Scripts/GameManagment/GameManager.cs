@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("начало");
         var profilePlayer = CreatePlayerProfile(_initialPlayerProfileConfig);
         _mainController = new MainController(_placeForUi, profilePlayer);
     }

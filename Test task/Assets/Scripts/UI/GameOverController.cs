@@ -29,7 +29,6 @@ namespace Ui
 
         private void RestartGame()
         {
-            //загрузка сцены с игрой
             SceneLoader _sceneLoader = new SceneLoader("Game");
             _sceneLoader.SceneLoad();
         }

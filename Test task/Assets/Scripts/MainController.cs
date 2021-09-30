@@ -34,17 +34,14 @@ internal class MainController : BaseController
         switch (state)
         {
             case GameState.Start:
-                Debug.Log("старт");
                 _mainMenuController = new MainMenuController(_placeForUi, _profilePlayer);
                 _settingsController?.Dispose();
                 break;
             case GameState.Game:
                 sceneLoader.SceneLoad();
-                Debug.Log("сцена типа удалена");
                 _mainMenuController?.Dispose();
                 break;
             case GameState.Settings:
-                Debug.Log("сцена типа удалена");
                 _settingsController = new SettingsController(_placeForUi, _profilePlayer);
                 _mainMenuController?.Dispose();
                 break;

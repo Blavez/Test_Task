@@ -12,7 +12,6 @@ public class SceneLoader
 
     public void SceneLoad()
     {
-        Debug.Log("опана");
         SceneManager.LoadScene(NameOfScene);
     }
 }

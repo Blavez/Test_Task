@@ -10,7 +10,7 @@ namespace Ui
         private readonly ResourcePath _resourcePath = new ResourcePath("Prefabs/mainMenu");
         private readonly ProfilePlayer _profilePlayer;
         private readonly MainMenuView _view;
-        private BoardController _boardController;
+        //private BoardController _boardController;
 
 
         public MainMenuController(Transform placeForUi, ProfilePlayer profilePlayer)
